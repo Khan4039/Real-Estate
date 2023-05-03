@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope";
+    font-weight: 700;
+}
+
+/* putting image in backgound */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("./assets/mainBackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+    position: relative;
+    padding: 1.5% 5.5%;
+    color: aliceblue;
+}
+
+/* align content in  line */
+nav{
+    display: flex;
+    align-items: first center;
+    justify-content: space-between;
+    font-size: 1.1em;
+    padding-bottom: 1.5%;
+}
+
+/* logo image on navigation */
+nav img{
+    height: 45px;
+    width: 120px;
+    margin-left: 12%;
+}
+
+/* navigation menu */
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    padding-right: 25%;
+}
+
+/* main area or detail area  */
+main{
+    padding-top: 5.5%;
+    padding-left: 3.8%;
+    font-size: 1.1em;
+
+}
+
+/* applied on full page */
+/* h1 is same for all that why i edited h1 here and and applied on full page heading editing */
+h1{
+    font-size: 4.1em;
+}
+
+/* all area button editing */
+.button{
+    background: #6663e9;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color:  aliceblue;
+    font-weight: 800;
+    font-size: 1.1em;
+}
+
+/* logo navigation */
+logo-nav{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+    width: 95%;
+    position: relative;
+    top: -85px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 80px 20px;
+    box-shadow: 0px 4px 120px rgba(58, 86, 78, 0.2);
+}
+
+/* estate buying section or cards */
+estate-section h1{
+    font-size: 3.9em;
+    font-weight: 900;
+}
+
+/* giving more-estate-card hight to uplift or downlift card */
+.more-estate-card{
+    height: 600px;
+}
+
+/* estate buying section or cards */
+.more-estate-card img{
+    width: 366px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+/* first making card ready */
+/* aplying flex in estate buying section or cards div*/
+.more-estate-card div{
+    width: 326px;
+    height: 121px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin: auto;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: -60px;
+    box-shadow: 0px 4px 120px rgba(58, 86, 78, 0.2);
+}
+
+/* aply flex-wrap on cards that mean arrang in a row */
+estate-section flex-area{
+    width: 90%;
+    padding-top: 150px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* uplifting card 1,6,7 */
+.card167{
+    position: relative;
+    top: -35px;
+}
+
+/* downlifting card 3,4,9 */
+.card349{
+    position: relative;
+    top: 35px;
+}
+
+/* editing details section left main image */
+.detail-section-left-img{
+    width: 405px;
+    height: 405px;
+    border-radius: 51px;
+    position: relative;
+    bottom: 50px;
+    left: 110px;
+}
+
+/* editing details section left and frame image */
+.detail-section-left-frame-img{
+    position: absolute;
+    left: -80px;
+    z-index: -1;
+    width: 726px;
+    height: 456px;
+}
+
+/* apliyng flex in detail-section-left to arrange content in a row */
+detail-section-left{
+    display: flex;
+    align-items: first center;
+    justify-content: space-between;
+    margin-right: 15%;
+    padding-bottom: 10%;
+}
+
+/* editing details section right main image */
+.detail-section-right-img{
+    width: 405px;
+    height: 405px;
+    border-radius: 51px;
+    position: absolute;
+    right: 135px;
+    
+}
+
+/* editing details section right and frame image */
+.detail-section-right-frame-img{
+    z-index: -1;
+    width: 726px;
+    height: 456px;
+    position:relative;
+    bottom: -50px;
+    
+}
+
+/* apliyng flex in detail-section-right to arrange content in a row */
+detail-section-right{
+    display: flex;
+    align-items: first center;
+    justify-content: space-between;
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+
+/* givning subscribe-section background color or making it boxy */
+subscribe-section center {
+    background: #6663e9;
+    width: 90%;
+    margin: auto;
+    padding: 80px;
+    border-radius: 80px;
+}
+
+/* aplying transparency and font color in subscribe-section contents */
+subscribe-section center h1, subscribe-section center p, subscribe-section center div, subscribe-section center div input{
+    background-color: transparent;
+    color: aliceblue;
+}
+
+/* apliyng flex in subscribe-section center div to arrange content in a row */
+subscribe-section center div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* givning subscribe-section center div:first-child background color or making it boxy */
+subscribe-section center div:first-child{
+    background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    padding: 20px 30px;
+    border-radius: 50px;
+    
+}
+
+/* removing border of input */
+subscribe-section center div:first-child input{
+    border: none;
+    padding-right: 200px;
+}
+
+/* editing subscribe button using class */
+.subscribe-button{
+    color: #6663e9;
+    background:  aliceblue;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 1.1em;
+}
+
+/* apliyng flex in footer to arrange content in a row */
+footer{
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6% 0;
+}
+
+/* apliyng flex in footer div to arrange content in a row */
+footer div{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* editing ul and its line heigth */
+footer div ul{
+    list-style: none;
+    line-height: 3em;
+}
+
+/* editing ul li and its font weight */
+footer div ul li{
+    font-weight: 400;
+}
